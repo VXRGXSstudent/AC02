@@ -127,7 +127,7 @@ Dica: voce vai pegar uma string do tipo "1-5" do dicionário.
 Pode ser util quebrar ela em duas usando string.split, e converter
 as strings "1" e "5" em números inteiros
 >>> string = '1-5'
->>> string.split('-')
+>>> string.split(
 ['1', '5']
 >>> string.split('-')[1]
 '5'
